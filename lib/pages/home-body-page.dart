@@ -5,7 +5,7 @@ class HomeBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Padding(
-        padding: EdgeInsets.only(left: 30, right: 30),
+        padding: EdgeInsets.only(left: 20, right: 20),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
@@ -103,6 +103,45 @@ class HomeBody extends StatelessWidget {
                                 ),
                               ),
                             ],
+                          ),
+                          SizedBox(
+                            height: 8,
+                          ),
+                          Row(
+                            children: <Widget>[
+                              Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.all(
+                                    Radius.circular(3),
+                                  ),
+                                ),
+                                child: OutlineButton(
+                                  borderSide: BorderSide(
+                                    color: Colors.grey,
+                                    style: BorderStyle.solid,
+                                    width: 1,
+                                  ),
+                                  child: Row(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceBetween,
+                                    children: <Widget>[
+                                      Text(
+                                        "Gerar Boleto",
+                                        textAlign: TextAlign.center,
+                                        style: TextStyle(
+                                            fontSize: 17,
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.teal),
+                                      ),
+                                    ],
+                                  ),
+                                  onPressed: () {},
+                                ),
+                              ),
+                            ],
+                          ),
+                          SizedBox(
+                            height: 21,
                           ),
                         ],
                       ),
