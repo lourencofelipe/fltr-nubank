@@ -141,7 +141,22 @@ class HomeBody extends StatelessWidget {
                             ],
                           ),
                           SizedBox(
-                            height: 21,
+                            height: 30,
+                          ),
+                          Row(
+                            children: <Widget>[
+                              Container(
+                                width: 351,
+                                height: 65,
+                                alignment: Alignment.topLeft,
+                                color: Colors.white12,
+                                child: Icon(
+                                  Icons.fastfood,
+                                  size: 30,
+                                  color: Colors.teal,
+                                ),
+                              ),
+                            ],
                           ),
                         ],
                       ),
