@@ -35,14 +35,14 @@ class HomeBody extends StatelessWidget {
               ],
             ),
             Padding(
-              padding: EdgeInsets.only(top: 70),
+              padding: EdgeInsets.only(top: 30),
               child: Center(
                 child: Card(
                   color: Colors.white,
                   child: Row(
                     children: <Widget>[
                       Padding(
-                        padding: EdgeInsets.only(left: 12),
+                        padding: EdgeInsets.only(left: 18),
                       ),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -80,7 +80,7 @@ class HomeBody extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.start,
                             children: <Widget>[
                               Text(
-                                "R 2.990,80",
+                                "R\$ 2.990,80",
                                 style: TextStyle(
                                   fontSize: 28,
                                   fontWeight: FontWeight.bold,
@@ -141,14 +141,15 @@ class HomeBody extends StatelessWidget {
                             ],
                           ),
                           SizedBox(
-                            height: 30,
+                            height: 15,
                           ),
                           Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: <Widget>[
                               Container(
-                                width: 351,
-                                height: 65,
-                                alignment: Alignment.topLeft,
+                                width: 40,
+                                height: 85,
+                                alignment: Alignment.centerLeft,
                                 color: Colors.white12,
                                 child: Icon(
                                   Icons.fastfood,
@@ -156,6 +157,20 @@ class HomeBody extends StatelessWidget {
                                   color: Colors.teal,
                                 ),
                               ),
+                              Text(
+                                "Compra mais recente " + "em bar stella",
+                                maxLines: 2,
+                                softWrap: true,
+                                textWidthBasis: TextWidthBasis.longestLine,
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  color: Colors.teal,
+                                ),
+                              ),
+                              Icon(
+                                Icons.chevron_right,
+                                color: Colors.teal,
+                              )
                             ],
                           ),
                         ],
@@ -164,6 +179,20 @@ class HomeBody extends StatelessWidget {
                   ),
                 ),
               ),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Container(
+              alignment: Alignment.center,
+              child: Icon(
+                Icons.more_horiz,
+                color: Colors.grey,
+                size: 41,
+              ),
+            ),
+            SizedBox(
+              height: 12,
             ),
           ],
         ),
