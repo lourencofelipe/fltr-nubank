@@ -201,19 +201,30 @@ class HomeBody extends StatelessWidget {
                   width: 118,
                   height: 111,
                   color: Colors.white10,
-                  child: Container(
-                    color: Theme.of(context).primaryColor.withOpacity(0.1),
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: <Widget>[
-                        Icon(
-                          Icons.perm_contact_calendar,
-                          color: Colors.white,
-                          size: 32,
-                        ),
-                      ],
-                    ),
-                    height: 10,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Icon(
+                        Icons.perm_contact_calendar,
+                        color: Colors.white,
+                        size: 32,
+                      ),
+                      SizedBox(
+                        height: 58,
+                      ),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: <Widget>[
+                          Text(
+                            "Indicar Amigos",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 16,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
                   ),
                 ),
                 Column(
@@ -222,19 +233,30 @@ class HomeBody extends StatelessWidget {
                       width: 118,
                       height: 111,
                       color: Colors.white10,
-                      child: Container(
-                        color: Theme.of(context).primaryColor.withOpacity(0.1),
-                        child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[
-                            Icon(
-                              Icons.format_list_bulleted,
-                              color: Colors.white,
-                              size: 32,
-                            ),
-                          ],
-                        ),
-                        height: 10,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: <Widget>[
+                          Icon(
+                            Icons.format_list_bulleted,
+                            color: Colors.white,
+                            size: 32,
+                          ),
+                          SizedBox(
+                            height: 58,
+                          ),
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.end,
+                            children: <Widget>[
+                              Text(
+                                "Ajustar Limite",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 16,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
                       ),
                     ),
                   ],
@@ -245,20 +267,31 @@ class HomeBody extends StatelessWidget {
                       width: 118,
                       height: 111,
                       color: Colors.white10,
-                      child: Container(
-                        color: Theme.of(context).primaryColor.withOpacity(0.1),
-                        child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[
-                            Icon(
-                              Icons.credit_card,
-                              color: Colors.white,
-                              size: 32,
-                            ),
-                          ],
-                        ),
-                        height: 10,
+                       child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Icon(
+                        Icons.credit_card,
+                        color: Colors.white,
+                        size: 32,
                       ),
+                      SizedBox(
+                        height: 58,
+                      ),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: <Widget>[
+                          Text(
+                            "Cartão virtual",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 16,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
                     ),
                   ],
                 ),
