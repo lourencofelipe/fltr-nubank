@@ -203,16 +203,18 @@ class HomeBody extends StatelessWidget {
                   color: Colors.white10,
                   child: Container(
                     color: Theme.of(context).primaryColor.withOpacity(0.1),
-                    child: Container(
-                      alignment: Alignment.topLeft,
-                      child: Icon(
-                        Icons.perm_contact_calendar,
-                        color: Colors.white,
-                        size: 32,
-                      ),
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Icon(
+                          Icons.perm_contact_calendar,
+                          color: Colors.white,
+                          size: 32,
+                        ),
+                      ],
                     ),
+                    height: 10,
                   ),
-                  
                 ),
                 Column(
                   children: <Widget>[
@@ -222,14 +224,17 @@ class HomeBody extends StatelessWidget {
                       color: Colors.white10,
                       child: Container(
                         color: Theme.of(context).primaryColor.withOpacity(0.1),
-                        child: Container(
-                          alignment: Alignment.topLeft,
-                          child: Icon(
-                            Icons.format_list_bulleted,
-                            color: Colors.white,
-                            size: 32,
-                          ),
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: <Widget>[
+                            Icon(
+                              Icons.format_list_bulleted,
+                              color: Colors.white,
+                              size: 32,
+                            ),
+                          ],
                         ),
+                        height: 10,
                       ),
                     ),
                   ],
@@ -242,14 +247,17 @@ class HomeBody extends StatelessWidget {
                       color: Colors.white10,
                       child: Container(
                         color: Theme.of(context).primaryColor.withOpacity(0.1),
-                        child: Container(
-                          alignment: Alignment.topLeft,
-                          child: Icon(
-                            Icons.credit_card,
-                            color: Colors.white,
-                            size: 32,
-                          ),
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: <Widget>[
+                            Icon(
+                              Icons.credit_card,
+                              color: Colors.white,
+                              size: 32,
+                            ),
+                          ],
                         ),
+                        height: 10,
                       ),
                     ),
                   ],
