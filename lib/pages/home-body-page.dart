@@ -192,7 +192,69 @@ class HomeBody extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: 12,
+              height: 4,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: <Widget>[
+                Container(
+                  width: 118,
+                  height: 111,
+                  color: Colors.white10,
+                  child: Container(
+                    color: Theme.of(context).primaryColor.withOpacity(0.1),
+                    child: Container(
+                      alignment: Alignment.topLeft,
+                      child: Icon(
+                        Icons.perm_contact_calendar,
+                        color: Colors.white,
+                        size: 32,
+                      ),
+                    ),
+                  ),
+                  
+                ),
+                Column(
+                  children: <Widget>[
+                    Container(
+                      width: 118,
+                      height: 111,
+                      color: Colors.white10,
+                      child: Container(
+                        color: Theme.of(context).primaryColor.withOpacity(0.1),
+                        child: Container(
+                          alignment: Alignment.topLeft,
+                          child: Icon(
+                            Icons.format_list_bulleted,
+                            color: Colors.white,
+                            size: 32,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                Column(
+                  children: <Widget>[
+                    Container(
+                      width: 118,
+                      height: 111,
+                      color: Colors.white10,
+                      child: Container(
+                        color: Theme.of(context).primaryColor.withOpacity(0.1),
+                        child: Container(
+                          alignment: Alignment.topLeft,
+                          child: Icon(
+                            Icons.credit_card,
+                            color: Colors.white,
+                            size: 32,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ],
             ),
           ],
         ),
