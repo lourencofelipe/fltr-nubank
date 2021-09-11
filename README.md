@@ -1,6 +1,6 @@
 # fltr_nubank
 
-A new Flutter project.
+Nubank layout using flutter.
 
 ## Getting Started
 
