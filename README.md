@@ -1,6 +1,8 @@
 # fltr_nubank
 
 Nubank layout using flutter.
+<br />
+<img src="assets/nbank_screen_flutter.JPG" width="240" />
 
 ## Getting Started
 
